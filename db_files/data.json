@@ -1,0 +1,24 @@
+{
+    "jokes":[
+        {
+            "id": 1,
+            "question": "Quelle est la femelle du hamster ?",
+            "answer": "l'Amsterdam"
+        },
+        {
+            "id": 2,
+            "question": "Que dit un oignon lorsqu'il se cogne ?",
+            "answer": "Ail"
+        },
+        {
+            "id": 3,
+            "question": "Pourquoi le football est rigolo ?",
+            "answer": "Parce que Thierry en rit"
+        },
+        {
+            "id": 4,
+            "question": "Quel est le sport le plus fruité ?",
+            "answer": "La boxe, parce que tu te prends des pêches plein la poire, tu tombes dans les pommes et tu ramènes plus ta fraise"
+        }
+    ]
+}
