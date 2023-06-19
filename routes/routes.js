@@ -24,25 +24,44 @@ router.use(function (req, res, next) {
 
 /**
  * @swagger
- * /:
+ * /getAll:
  *  get:
- *    description: All jokes
+ *    description: Get all jokes
  *    responses:
  *      '200':
  *        description: A successful response
  */
 router.get('/getAll', services.getAll)
 
+ /**
+ * @swagger
+ * /getById/{id}:
+ *   get:
+ *     description: Gets a joke by its ID.
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         description: Numeric ID of the user to retrieve.
+ *     responses:
+ *       200:
+ *         description: A single joke.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+*/
+router.get('/getById/:id', services.getById)
+
 /**
  * @swagger
- * /:
+ * /random:
  *  get:
- *    description: Home route
+ *    description: Get a random joke
  *    responses:
  *      '200':
  *        description: A successful response
  */
-router.get('/getById/:id', services.getById)
 router.get('/random', services.randomJoke)
 
 module.exports = router
