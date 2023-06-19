@@ -22,7 +22,26 @@ router.use(function (req, res, next) {
     next();
 });
 
+/**
+ * @swagger
+ * /:
+ *  get:
+ *    description: All jokes
+ *    responses:
+ *      '200':
+ *        description: A successful response
+ */
 router.get('/getAll', services.getAll)
+
+/**
+ * @swagger
+ * /:
+ *  get:
+ *    description: Home route
+ *    responses:
+ *      '200':
+ *        description: A successful response
+ */
 router.get('/getById/:id', services.getById)
 router.get('/random', services.randomJoke)
 
