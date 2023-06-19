@@ -8,15 +8,15 @@ const swaggerOptions = {
     swaggerDefinition: {
         openapi: '3.0.0',
       info: {
-        title: 'Dialog API',
-        description: 'Dialog API Information',
+        title: 'Carambar Jokes API',
+        description: 'Jokes API Informations',
         contact: {
-          name: 'Developer Name',
+          name: 'WhoKnows',
         },
         servers: ['http://localhost:3000'],
       },
     },
-    apis: ['./routes/DialogRoutes.js'],
+    apis: ['./routes/routes.js'],
   };
   
   const swaggerDocs = swaggerJsDoc(swaggerOptions);
