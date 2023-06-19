@@ -3,6 +3,7 @@
 - Toutes les blagues : https://exam-back-tpiquet.onrender.com/getAll
 - Blague par ID (remplacer :id par le nombre souhaité) : https://exam-back-tpiquet.onrender.com/getById/:id
 - Blague aléatoire : https://exam-back-tpiquet.onrender.com/random
+- Swagger UI : https://exam-back-tpiquet.onrender.com/api-docs/
 
 ## Infos
 - La base de données est simulée avec un fichier .json
