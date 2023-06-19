@@ -12,13 +12,43 @@
         },
         {
             "id": 3,
+            "question": "Quel est l'animal le plus heureux ?",
+            "answer": "Le hibou, parce que sa femme est chouette"
+        },
+        {
+            "id": 4,
             "question": "Pourquoi le football est rigolo ?",
             "answer": "Parce que Thierry en rit"
         },
         {
-            "id": 4,
+            "id": 5,
             "question": "Quel est le sport le plus fruité ?",
             "answer": "La boxe, parce que tu te prends des pêches plein la poire, tu tombes dans les pommes et tu ramènes plus ta fraise"
+        },
+        {
+            "id": 6,
+            "question": "Que se fait un Schtroumpf quand il tombe ?",
+            "answer": "Un bleu"
+        },
+        {
+            "id": 7,
+            "question": "Quel est le comble pour un marin ?",
+            "answer": "Avoir le nez qui coule !"
+        },
+        {
+            "id": 8,
+            "question": "Qu'est-ce que les enfants usent le plus à l'école ?",
+            "answer": "Le professeur !"
+        },
+        {
+            "id": 9,
+            "question": "Quel est le sport le plus silencieux ?",
+            "answer": "Le para-chuuuuuut"
+        },
+        {
+            "id": 10,
+            "question": "Quel est le comble pour un joueur de bowling ?",
+            "answer": "De perdre la boule !"
         }
     ]
 }
